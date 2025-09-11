@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Now</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Home Screen -->
+  <div id="homeScreen" class="screen home-bg">
+    <div class="overlay">
+      <h1>☁️ Weather Now</h1>
+      <p>Check live weather conditions anywhere in the world</p>
+      <button id="getStartBtn">Get Started</button>
+    </div>
+  </div>
+
+  <!-- Weather Screen -->
+  <div id="weatherScreen" class="screen hidden">
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button id="searchBtn">Search</button>
+    </div>
+    <div id="weatherResult"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
