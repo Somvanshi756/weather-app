@@ -50,10 +50,10 @@ function getBackgroundImage(code) {
   if ([1, 2, 3].includes(code)) return "cloudy.jpg";
   if ([45, 48].includes(code)) return "fog.jpg";
   if ([51, 53, 55, 56, 57].includes(code)) return "rainy.jpg";
-  if ([61, 63, 65, 66, 67].includes(code)) return "images/rainy.jpg";
-  if ([71, 73, 75, 77, 85, 86].includes(code)) return "images/snow.jpg";
-  if ([95, 96, 99].includes(code)) return "images/storm.jpg";
-  return "images/sunny.jpg"; 
+  if ([61, 63, 65, 66, 67].includes(code)) return "rainy.jpg";
+  if ([71, 73, 75, 77, 85, 86].includes(code)) return "snow.jpg";
+  if ([95, 96, 99].includes(code)) return "storm.jpg";
+  return "sunny.jpg"; 
 }
 
 // Event listener for search
